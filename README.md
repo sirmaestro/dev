@@ -15,10 +15,13 @@ zip -r node.zip . -x "**/node_modules/*"
 zip -r dir.zip dir/ -x */\.* *.git* \.* *.zip *.csv *.json *.rb *.bak *.swp *.back *.merge *.txt *.sh dir1/node_modules/**\* dir1/bower_components/**\* dir1/dist/**.*
 ```
 
-Move files with progress
+Rsync - Move files with progress
 ```
 rsync --progress /path/to/source-file /path/to/destination
 ```
+`--ignore-existing` - Skip existing files
+`--delete` - Delete source files
+
 
 # Tmux
 Command | Description
