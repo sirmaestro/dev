@@ -20,8 +20,13 @@ Rsync - Move files with progress
 rsync --progress /path/to/source-file /path/to/destination
 ```
 `--ignore-existing` - Skip existing files
+
 `--delete` - Delete source files
 
+Mount SMB share in linux
+```
+mount -t cifs -o username=user_name //server_name/share_name /mnt/data
+```
 
 # Tmux
 Command | Description
