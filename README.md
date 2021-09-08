@@ -30,6 +30,7 @@ Command | Description
 `--remove-source-files` | Sender removes synchronized files (non-dir)
 `--ignore-existing` | Skip existing files
 `--delete` | Delete destination files
+`--exclude` | Exclude source files e.g. `--exclude 'path'
 
 Check SMB shares on a host
 ```
