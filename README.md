@@ -41,7 +41,10 @@ Mount SMB share in linux
 ```
 mount -t cifs -o username=user_name //server_name/share_name /mnt/data
 ```
-
+e.g.
+```
+mount -t cifs -o username=plex //192.168.1.222/media /mnt/temp
+```
 # Tmux
 Command | Description
 ------------ | -------------
