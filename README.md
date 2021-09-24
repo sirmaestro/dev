@@ -26,7 +26,7 @@ Command | Description
 `-o` | Overwrite existing files
 `-u` | Update files
 `-f` | Update only existing files
-`-x` | Exclude files e.g. `x *.srt`
+`-x` | Exclude files e.g. `-x *.srt`
 
 Rsync - Move files but better
 ```
