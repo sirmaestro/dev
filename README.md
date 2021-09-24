@@ -15,6 +15,19 @@ zip -r node.zip . -x "**/node_modules/*"
 zip -r dir.zip dir/ -x */\.* *.git* \.* *.zip *.csv *.json *.rb *.bak *.swp *.back *.merge *.txt *.sh dir1/node_modules/**\* dir1/bower_components/**\* dir1/dist/**.*
 ```
 
+Unzip directory
+```
+unzip -o -d target_directory zip_file
+```
+Command | Description
+------------ | -------------
+`-l` | List contents of zip
+`-d` | Unzip to target directory
+`-o` | Overwrite existing files
+`-u` | Update files
+`-f` | Update only existing files
+`-x` | Exclude files e.g. `x *.srt`
+
 Rsync - Move files but better
 ```
 rsync /path/to/source-file /path/to/destination
