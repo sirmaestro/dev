@@ -58,6 +58,10 @@ e.g.
 ```
 mount -t cifs -o username=plex //192.168.1.222/media /mnt/temp
 ```
+example in relaxed environment (unraid), no enforcing permission or credientials
+```
+mount -t cifs -o rw,guest,noperm //192.168.1.2 /mnt/temp
+```
 # Tmux
 Command | Description
 ------------ | -------------
