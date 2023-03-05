@@ -1,6 +1,11 @@
 # dev
 
 # Useful commands
+List 1st level of subdirectory size
+```
+sudo du -hc --max-depth=1 .
+```
+
 Generate Public/Private keys to ssh into server
 ```
 ssh-keygen
