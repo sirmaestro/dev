@@ -3,6 +3,7 @@
 winget install --id=AntibodySoftware.WizTree -e
 winget install --id=CharlesMilette.TranslucentTB -e
 winget install --id=Discord.Discord -e
+winget install --id=Git.Git -e
 winget install --id=Google.Chrome -e
 winget install --id=Intel.IntelDriverAndSupportAssistant -e
 winget install --id=mcmilk.7zip-zstd -e
@@ -42,3 +43,4 @@ winget install --id=Microsoft.VCRedist.2015+.x64 -e
 
 # Optional
 # winget install --id=Mobatek.MobaXterm -e
+# winget install --id=webosbrew.webOSDevManager -e
