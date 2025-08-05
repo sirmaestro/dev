@@ -1,0 +1,16 @@
+@echo off
+set "basePath=D:\Programs"
+
+winget install --id=CrystalDewWorld.CrystalDiskInfo -e --location "%basePath%\CrystalDiskInfo"
+winget install --id=CrystalDewWorld.CrystalDiskMark -e --location "%basePath%\CrystalDiskMark"
+winget install --id=DupeGuru.DupeGuru -e --location "%basePath%\DupeGuru"
+winget install --id=LizardByte.Sunshine -e --location "%basePath%\Sunshine"
+winget install --id=mtkennerly.ludusavi -e --location "%basePath%\Ludusavi"
+winget install --id=Nicotine+.Nicotine+ -e --location "%basePath%\Nicotine+"
+winget install --id=Nikse.SubtitleEdit -e --location "%basePath%\SubtitleEdit"
+winget install --id=Playnite.Playnite -e --location "%basePath%\Playnite"
+winget install --id=PrestonN.FreeTube -e --location "%basePath%\FreeTube"
+winget install --id=Rufus.Rufus -e --location "%basePath%\Rufus"
+winget install --id=TorProject.TorBrowser -e --location "%basePath%\TorBrowser"
+winget install --id=Ventoy.Ventoy -e --location "%basePath%\Ventoy"
+winget install --id=winaero.tweaker -e --location "%basePath%\WinaeroTweaker"
