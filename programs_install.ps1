@@ -1,0 +1,16 @@
+winget install --id=AntibodySoftware.WizTree -e --location "D:\Programs\WizTree" &&
+winget install --id=CrystalDewWorld.CrystalDiskInfo -e --location "D:\Programs\CrystalDiskInfo" &&
+winget install --id=CrystalDewWorld.CrystalDiskMark -e --location "D:\Programs\CrystalDiskMark" &&
+winget install --id=DupeGuru.DupeGuru -e --location "D:\Programs\DupeGuru" &&
+winget install --id=LizardByte.Sunshine -e --location "D:\Programs\Sunshine" &&
+winget install --id=Mobatek.MobaXterm -e --location "D:\Programs\MobaXterm" &&
+winget install --id=mtkennerly.ludusavi -e --location "D:\Programs\Ludusavi" &&
+winget install --id=Nicotine+.Nicotine+ -e --location "D:\Programs\Nicotine+" &&
+winget install --id=Nikse.SubtitleEdit -e --location "D:\Programs\SubtitleEdit" &&
+winget install --id=Playnite.Playnite -e --location "D:\Programs\Playnite" &&
+winget install --id=PrestonN.FreeTube -e --location "D:\Programs\FreeTube" &&
+winget install --id=Rufus.Rufus -e --location "D:\Programs\Rufus" &&
+winget install --id=TechPowerUp.GPU-Z -e --location "D:\Programs\GPU-Z" &&
+winget install --id=TorProject.TorBrowser -e --location "D:\Programs\TorBrowser" &&
+winget install --id=Ventoy.Ventoy -e --location "D:\Programs\Ventoy" &&
+winget install --id=winaero.tweaker -e --location "D:\Programs\WinaeroTweaker" &&
