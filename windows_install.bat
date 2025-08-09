@@ -14,6 +14,7 @@ winget install --id=Microsoft.WSL -e
 winget install --id=Mozilla.Firefox.en-GB -e
 winget install --id=Parsec.Parsec -e
 winget install --id=qBittorrent.qBittorrent -e
+winget install --id=QL-Win.QuickLook -e
 winget install --id=stnkl.EverythingToolbar -e
 winget install --id=TechPowerUp.GPU-Z -e
 winget install --id=TechPowerUp.NVCleanstall -e
@@ -42,5 +43,4 @@ winget install --id=Microsoft.VCRedist.2015+.x64 -e
 
 # Optional
 # winget install --id=Mobatek.MobaXterm -e
-# winget install --id=QL-Win.QuickLook -e
 # winget install --id=webosbrew.webOSDevManager -e
